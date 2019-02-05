@@ -51,11 +51,16 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="RepositorioBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositorioDepositos.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{4FC98B36-2F72-49C1-A467-6BBF08D84A2C}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{2C582BA5-ABBE-4EFD-A0A1-98BDF13CCEBD}</Project>
+      <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
