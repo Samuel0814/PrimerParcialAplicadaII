@@ -13,5 +13,25 @@ namespace PrimerParcial.Registros
         {
 
         }
+
+        protected void ButtonNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
