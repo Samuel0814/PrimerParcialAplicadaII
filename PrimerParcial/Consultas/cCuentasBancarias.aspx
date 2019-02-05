@@ -30,7 +30,7 @@
 
             <div class="row justify-content-center mt-3">
                 <div class="col-lg-11">
-                    <asp:GridView ID="CuentaGridView" runat="server" AllowPaging="true" PageSize="7" CssClass="table table-striped table-hover table-responsive-lg" AutoGenerateColumns="False">
+                    <asp:GridView ID="CuentaGridView" runat="server" AllowPaging="true" PageSize="7" CssClass="table table-striped table-hover table-responsive-lg" AutoGenerateColumns="False" OnSelectedIndexChanged="CuentaGridView_SelectedIndexChanged">
                         <Columns>
                             <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
                             <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
