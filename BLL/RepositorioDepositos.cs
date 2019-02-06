@@ -51,7 +51,7 @@ namespace BLL
         }
 
         public RepositorioDepositos() : base()
-        {
+        { 
 
         }
 
